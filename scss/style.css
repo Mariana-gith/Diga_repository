@@ -1,0 +1,156 @@
+h1 {
+  font-size: 45px;
+  font-family: monospace;
+  padding: 4%;
+  color: #dc0100;
+}
+
+h2 {
+  font-size: 40px;
+  font-family: monospace;
+  padding: 4%;
+  color: #dc0100;
+}
+
+h3 {
+  font-size: 25px;
+  font-family: monospace;
+  padding: 4%;
+  color: #1a1a5f;
+}
+
+h4 {
+  font-size: 20px;
+  font-family: monospace;
+  padding: 4%;
+  color: #1a1a5f;
+}
+
+.color-red {
+  color: red;
+  padding: 2%;
+  border-top: solid 1px;
+}
+
+.color-blue {
+  color: blue;
+  padding: 2%;
+  border-top: solid 1px;
+}
+
+.sombreado--titulo {
+  -webkit-box-shadow: 5px 13px 23px grey;
+          box-shadow: 5px 13px 23px grey;
+}
+
+.sombreado--caja {
+  -webkit-box-shadow: 7px 7px 15px yellow;
+          box-shadow: 7px 7px 15px yellow;
+}
+
+.sombreado--sombra {
+  -webkit-box-shadow: 7px 7px 15px green;
+          box-shadow: 7px 7px 15px green;
+}
+
+.cabecera {
+  background-color: #f8f9fa;
+}
+
+.nav-tabs .nav-link {
+  color: #dc0100;
+}
+
+.nav__lista {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-right: 21%;
+  padding-bottom: 1%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #dc0100;
+  background-color: #f8f9fa;
+}
+
+.carousel__img {
+  padding-left: 38%;
+  padding-top: 9%;
+  padding-bottom: 8%;
+}
+
+.carousel__botones {
+  color: #dc0100;
+  border: solid;
+  background-color: #dc0100;
+}
+
+.futer {
+  background-color: #f8f9fa;
+  padding: 2%;
+}
+
+.futer .futer__text {
+  text-align: center;
+}
+
+.futer .futer__redes {
+  width: 5%;
+}
+
+.contacto .contacto__img {
+  width: 100%;
+  -webkit-box-shadow: 7px 7px 15px #592A08;
+          box-shadow: 7px 7px 15px #592A08;
+}
+
+.contacto .contacto__form {
+  text-align: center;
+  color: #dc0100;
+  padding: 6%;
+}
+
+/*p{
+    font-family: $fuente;
+        h5{
+            font-family: $fuente;
+        }
+}*/
+.card {
+  -webkit-box-shadow: 7px 7px 15px #592A08;
+          box-shadow: 7px 7px 15px #592A08;
+  margin: 4%;
+}
+
+.cardprod__img {
+  width: 62%;
+  margin: 5%;
+}
+
+.card__parrafo p {
+  font-family: monospace;
+}
+
+.card__parrafo h5 {
+  color: #1a1a5f;
+}
+
+.conteiner-padding {
+  padding: 6%;
+  -webkit-box-shadow: 7px 7px 15px #592A08;
+          box-shadow: 7px 7px 15px #592A08;
+}
+
+.nosotrosbody p {
+  font-family: monospace;
+}
+
+.nosotrosbody h4 {
+  color: #1a1a5f;
+}
+
+.nosotrosbody ul li {
+  font-family: monospace;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,160 @@
+@import "color";
+@import "font";
+
+@for $i from 1 through 2 {
+    h#{$i}{
+      font-size: 50px -(5*$i);
+      font-family: $fuente;
+      padding: 4%;
+      color: $rojo-diga;
+    }
+}
+
+@for $i from 3 through 4 {
+    h#{$i}{
+      font-size: 40px -(5*$i);
+      font-family: $fuente;
+      padding: 4%;
+      color: $azul-diga;
+    }
+}
+
+
+@each $color in red ,blue {
+    .color-#{$color}{
+        color: $color;
+        padding: 2%;
+        border-top: solid 1px;
+    }
+}
+
+$bordes:(
+    titulo:5px 13px 23px grey,
+    caja:7px 7px 15px yellow,
+    sombra:7px 7px 15px green
+);
+
+@each $somb, $shadow in $bordes{
+    .sombreado--#{$somb}{
+        box-shadow:$shadow
+    }
+}
+
+.cabecera{
+    background-color:$rojo-diga!important;
+ }
+
+
+ .navbar-nav{
+     justify-content: center;
+ }
+ 
+.nav-tabs {
+    .nav-link {
+        color: $rojo-diga;
+    }
+}
+
+
+.nav__lista{
+    justify-content: flex-end;
+    padding-right: 21%;
+    padding-bottom: 1%;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color:$backgroundColor ;
+    
+}
+
+
+
+.carousel__img{
+    padding-left: 38%;
+    padding-top: 9%;
+    padding-bottom: 8%;
+}
+
+.carousel__botones{
+    color:$rojo-diga;
+    border: solid;
+    background-color:$rojo-diga;
+}
+
+.futer{
+    background-color:$backgroundColor;
+    padding: 2%;
+        .futer__text{
+            text-align: center;
+        }
+            .futer__redes{
+                width: 5%;
+            }
+}
+
+.contacto{
+    .contacto__img{
+        width: 100%;
+        box-shadow: 7px 7px 15px #592A08;
+
+    }
+        .contacto__form{
+            text-align: center;
+            color:$rojo-diga;
+            padding: 6%;
+        }
+
+}
+
+/*p{
+    font-family: $fuente;
+        h5{
+            font-family: $fuente;
+        }
+}*/
+
+.card{
+    box-shadow: 7px 7px 15px #592A08;
+    transition: transform .2s; 
+   
+}
+.cardprod__img{
+    width: 62%;
+    margin: 5%;
+}
+
+.card__parrafo{
+    p{
+        font-family: $fuente
+    }
+    h5{
+        color:$azul-diga;
+     }
+}
+
+.conteiner-padding{
+    padding: 6%;
+    box-shadow: 7px 7px 15px #592A08;
+}
+
+.nosotrosbody{
+
+p{
+    font-family: $fuente;
+}
+    h4{
+        color: $azul-diga;
+    }
+        ul li{
+            font-family: $fuente;
+        }
+}
+
+.bg-img{
+    background-image: url(../Assets/img/taller2.jpg);
+    width: 100%;
+}
+
+.solapas{
+    padding-top: 7%;
+    justify-content: center;
+}
