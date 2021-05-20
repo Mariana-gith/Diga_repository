@@ -153,3 +153,50 @@ p{
     background-image: url(../Assets/img/taller2.jpg);
     width: 100%;
 }*/
+.card{
+    width: 80%;
+}
+
+.card:hover img{
+    transform:scale(1.5);
+}
+.solapas{
+    background-image: url(../Assets/img/taller2.jpg);
+    padding: 18%;
+    justify-content: center;
+    margin-bottom: 2rem;
+    padding-top: 18%;
+    padding-bottom: 18%;
+   
+}
+
+.navbar-light .navbar-brand{
+    color:#f8f9fa;
+    font-size: xx-large;
+}
+
+.text-muted{
+    color: black;
+
+}
+.jumbo-index {
+    background-image: url(/Assets/img/maquina-de-estampado-2.jpg);
+}
+.jumbo-nosotros{
+    background-image: url(/Assets/img/remeras.jpg);
+}
+.jumbotron-promo{
+    background-image: url(/Assets/img/tinta.jpg)
+}
+.jumbotron-contacto{
+    background-image: url(/Assets/img/maquina-de-estampado-1.jpg);
+}
+
+
+.jumbotron{
+    width: 100%;
+}
+
+.jumbotron .text-muted {
+    color: #f8f9fa!important;
+}
