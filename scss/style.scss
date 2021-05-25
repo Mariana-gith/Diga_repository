@@ -40,49 +40,20 @@ $bordes:(
     }
 }
 
+
 .cabecera{
     background-color:$rojo-diga!important;
  }
-
 
  .navbar-nav{
      justify-content: center;
  }
  
-.nav-tabs {
-    .nav-link {
-        color: $rojo-diga;
-    }
-}
-
-
-.nav__lista{
-    justify-content: flex-end;
-    padding-right: 21%;
-    padding-bottom: 1%;
-}
-.navbar-dark .navbar-nav .nav-link {
-    color:$backgroundColor ;
-    
-}
-
-
-
-.carousel__img{
-    padding-left: 38%;
-    padding-top: 9%;
-    padding-bottom: 8%;
-}
-
-.carousel__botones{
-    color:$rojo-diga;
-    border: solid;
-    background-color:$rojo-diga;
-}
 
 .futer{
     background-color:$backgroundColor;
     padding: 2%;
+    padding-bottom: 0%;
         .futer__text{
             text-align: center;
         }
@@ -91,32 +62,16 @@ $bordes:(
             }
 }
 
-.contacto{
-    .contacto__img{
-        width: 100%;
-        box-shadow: 7px 7px 15px #592A08;
-
-    }
-        .contacto__form{
-            text-align: center;
-            color:$rojo-diga;
-            padding: 6%;
-        }
-
+.form-presupuesto{
+    padding-right: 4%;
+    margin-top: 20%;
+}
+.form-pedido{
+    padding-left: 4%;
+    margin-top: 20%;
 }
 
-/*p{
-    font-family: $fuente;
-        h5{
-            font-family: $fuente;
-        }
-}*/
 
-.card{
-    box-shadow: 7px 7px 15px #592A08;
-    transition: transform .2s; 
-   
-}
 .cardprod__img{
     width: 62%;
     margin: 5%;
@@ -149,10 +104,7 @@ p{
         }
 }
 
-/*.bg-img{
-    background-image: url(../Assets/img/taller2.jpg);
-    width: 100%;
-}*/
+
 .card{
     width: 80%;
 }
@@ -161,18 +113,29 @@ p{
     transform:scale(1.5);
 }
 .solapas{
-    background-image: url(Assets/img/taller2.jpg);
+    background-size: 1400px 600px;
     padding: 18%;
     justify-content: center;
     margin-bottom: 2rem;
     padding-top: 18%;
-    padding-bottom: 18%;
-   
+    padding-bottom: 9%;
 }
 
+.bg-img-dis{
+    background-image: url(/Assets/img/navproduc6.jpg);
+    background-size: 1400px auto;
+    width:104%;
+}
+.bg-img-estam{
+    background-image: url(/Assets/img/navproduc3.jpg);
+    background-size: 1400px auto
+}
+.bg-img-inde{
+    background-image: url(/Assets/img/navproduc2.jpg);
+    background-size: 1400px auto
+}
 .navbar-light .navbar-brand{
-    color:#f8f9fa;
-    font-size: xx-large;
+    font-size: -webkit-xxx-large;
 }
 
 .text-muted{
@@ -181,15 +144,19 @@ p{
 }
 .jumbo-index {
     background-image: url(../Assets/img/maquina-de-estampado-2.jpg);
+    background-size: 1400px 400px;
 }
 .jumbo-nosotros{
-    background-image: url(Assets/img/remeras.jpg);
+    background-image: url(../Assets/img/test-de-luscher.jpg);
+    background-size: 1400px 400px;
 }
 .jumbotron-promo{
-    background-image: url(Assets/img/tinta.jpg);
+    background-image: url(../Assets/img/remeraspord.jpeg);
+    background-size: 1400px 400px;
 }
 .jumbotron-contacto{
-    background-image: url(Assets/img/maquina-de-estampado-1.jpg);
+    background-image: url(../Assets/img/maquina-de-estampado-1.jpg);
+    background-size: 1400px 400px;
 }
 
 
@@ -198,5 +165,25 @@ p{
 }
 
 .jumbotron .text-muted {
-    color: #f8f9fa!important;
+    color: black!important;
+}
+
+.container-promo{
+    text-align: end;
+}
+
+@media (max-width: 768px){
+.cabecera {
+    position: relative;
+}
+}
+
+.padding-conteiner{
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+.resaltar{
+    color: $rojo-diga;
+    font-size:xx-large;
 }
