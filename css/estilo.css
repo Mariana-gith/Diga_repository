@@ -156,3 +156,6 @@ h4 {
 .resaltar {
   color: #dc0100;
   font-size: xx-large; }
+
+.row {
+  width: 100%; }
