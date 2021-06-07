@@ -145,16 +145,13 @@ h4 {
 .container-promo {
   text-align: end; }
 
-.padding-conteiner {
+.padding-container {
   padding-left: 12%;
   padding-right: 12%; }
 
 .resaltar {
   color: #dc0100;
   font-size: xx-large; }
-
-.row {
-  width: 100%; }
 
 @media (max-width: 768px) {
   .cabecera {
@@ -170,3 +167,6 @@ h4 {
   .bg-light {
     padding-left: 12%;
     padding-right: 12%; } }
+
+.titulo {
+  font-size: 35px; }

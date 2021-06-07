@@ -175,7 +175,7 @@ p{
 
 
 
-.padding-conteiner{
+.padding-container{
     padding-left: 12%;
     padding-right: 12%;
 }
@@ -184,10 +184,7 @@ p{
     color: $rojo-diga;
     font-size:xx-large;
 }
-.row{
-    width: 100%;
-    
-}
+
 
 @media (max-width: 768px){
     .cabecera {
@@ -209,4 +206,9 @@ p{
         padding-right: 12%;
     }
 
+}
+
+
+.titulo{
+    font-size: 35px;
 }
